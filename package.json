@@ -1,0 +1,39 @@
+{
+  "name": "react-access-policy",
+  "version": "0.1.0",
+  "description": "Tiny, declarative role & permission (RBAC) helper for React apps.",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "dev": "tsup src/index.ts --format cjs,esm --dts --watch",
+    "lint": "eslint src --ext .ts,.tsx || echo \"no lint configured\""
+  },
+  "keywords": [
+    "react",
+    "rbac",
+    "permissions",
+    "authorization",
+    "access-control"
+  ],
+  "author": "Er Raj Aryan",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=17.0.0",
+    "react-dom": ">=17.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.27",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3"
+  }
+}
