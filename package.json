@@ -1,6 +1,6 @@
 {
   "name": "@er-raj-aryan/react-access-policy",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Tiny, declarative role & permission (RBAC) helper for React apps.",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
