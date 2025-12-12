@@ -249,16 +249,3 @@ const allowed = useCan("user.edit");
 
 MIT © Er Raj Aryan
 
-```
-
----
-
-### Next power moves 🚀
-If you want, I can help you:
-- add **badges** (npm, downloads, types)
-- create a **live demo repo**
-- optimize README for **npm search ranking**
-- write a **launch post** for LinkedIn / X
-
-Just say the word.
-```
