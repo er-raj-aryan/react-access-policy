@@ -1,5 +1,13 @@
 # react-access-policy
 
+![NPM Version](https://img.shields.io/npm/v/%40er-raj-aryan%2Freact-access-policy?style=flat-square)
+![NPM Downloads](https://img.shields.io/npm/dw/%40er-raj-aryan%2Freact-access-policy?style=flat-square)
+![License](https://img.shields.io/npm/l/%40er-raj-aryan%2Freact-access-policy?style=flat-square)
+![Bundle Size](https://img.shields.io/bundlephobia/minzip/%40er-raj-aryan%2Freact-access-policy?style=flat-square)
+![GitHub License](https://img.shields.io/github/license/er-raj-aryan/react-access-policy?style=flat-square)
+![GitHub Repo Stars](https://img.shields.io/github/stars/er-raj-aryan/react-access-policy?style=flat-square)
+
+
 Tiny, declarative **role & permission (RBAC)** helper for React apps.  
 Built to keep authorization logic **out of JSX**, **easy to reason about**, and **enterprise-ready**.
 
